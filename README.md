@@ -3,7 +3,8 @@
 ## Modifying python-can installation
 
 1) Install python can version 4.5.0
-2) Create a folder can_serial inside your `site_packages/can/interfaces` path
+2) Move the canserial folder to the `site-packages/can/interfaces/` path of your python installation
+3) Now you can use the custom class for the USB-CAN-A interface by waveshare to connect and send data using python-can, just put 'interface=canserial' as a keyword argument when initializing your serial bus.
 
 LICENSE USE
 
