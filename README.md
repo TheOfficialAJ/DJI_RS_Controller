@@ -1,6 +1,6 @@
 # DJI Ronin RS Controller USB-CAN-A support
 
-##Modifying python-can installation
+## Modifying python-can installation
 
 1) Install python can version 4.5.0
 2) Create a folder can_serial inside your `site_packages/can/interfaces` path
