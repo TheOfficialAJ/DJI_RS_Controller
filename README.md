@@ -1,4 +1,9 @@
-# DJI Ronin RS2/3 Pro - Log and Replay Movements
+# DJI Ronin RS Controller USB-CAN-A support
+
+##Modifying python-can installation
+
+1) Install python can version 4.5.0
+2) Create a folder can_serial inside your `site_packages/can/interfaces` path
 
 LICENSE USE
 
@@ -20,6 +25,8 @@ see ronin-play and ronin-record for required python dependencies to install
 Custom 3D printed RS2 CAN connector or DJI R Focus Wheel ([connection diagram](https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Ronin%E7%B3%BB%E5%88%97/External%20interface%20diagram.pdf)) 
 
 3D Print STL file for custom can connector instead of Focus Wheel included, glue in and solder with these [pogo pins](https://www.traceparts.com/els/precidip/en/product/precidip-straight-slc-connector-low-profile-solder-tail-double-row-8-contacts-a-6-mm-b-4-mm?CatalogPath=PRECIDIP%3APRECIDIP.010.040&Product=10-11052011-114081&PartNumber=813-S1-008-10-014101)
+
+
 
 
 1) Create a bin folder in your home directory, add all files to bin directory, make sure all files have permission as executable
