@@ -1,4 +1,5 @@
 # DJI Ronin RS Controller USB-CAN-A support
+This is a modification of the DJI RS 4 Record and Play repo with added support for the USBCAN-A Adapter by Waveshare. The support has been added by adding a custom class to the python-can library which can send and receive CAN frames using that driver as no current interfaces in Python-can possess such support.
 
 ## Modifying python-can installation
 
